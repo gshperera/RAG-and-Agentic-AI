@@ -13,4 +13,5 @@ dependencies = [
     "langgraph>=1.0.10",
     "pypdf>=6.8.0",
     "python-dotenv>=1.2.2",
+    "sentence-transformers>=5.2.3",
 ]
