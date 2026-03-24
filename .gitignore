@@ -15,3 +15,6 @@ wheels/
 # VS Code workspace files
 *.code-workspace
 .vscode/
+
+db/
+chroma_db
