@@ -1,15 +1,16 @@
 # 📚 Chunking Strategies for RAG Systems
 
-## 📑 Table of Contents
-- [What is Chunking?](#what-is-chunking)
-- [Why Better Chunking Matters](#why-better-chunking-matters)
-- [The 5 Chunking Strategies](#the-5-chunking-strategies)
-  - [1. CharacterTextSplitter (Basic)](#1-charactertextsplitter-basic)
-  - [2. RecursiveCharacterTextSplitter (Advanced)](#2-recursivecharactertextsplitter-advanced)
-  - [3. Document-Specific Splting](#3-document-specific-splitting)
-  - [4. Semantic Splitting (Deep Dive)](#4-semantic-splitting-deep-dive)
-  - [5. Agentic Splitting (AI-Powered)](#5-agentic-splitting-ai-powered)
-- [Final Recommendation](#final-recommendation)
+## 📖 Table of Contents
+ 
+1. [What is Chunking?](#what-is-chunking)
+2. [Why Chunking Matters](#why-chunking-matters)
+3. [The 5 Chunking Strategies](#the-5-chunking-strategies)
+   - [1. CharacterTextSplitter](#1-charactertextsplitter)
+   - [2. RecursiveCharacterTextSplitter](#2-recursivecharactertextsplitter)
+   - [3. Document-Specific Splitting](#3-document-specific-splitting)
+   - [4. Semantic Splitting](#4-semantic-splitting)
+   - [5. Agentic Splitting](#5-agentic-splitting)
+4. [Choosing the Right Strategy](#choosing-the-right-strategy)
 
 ---
 
@@ -37,7 +38,7 @@ In a RAG system, the retriever does **not** search entire documents – it searc
 
 ---
 
-## 🧠 The 5 Chunking Strategies
+## The 5 Chunking Strategies
 | Strategy | Approach | Best for |
 |----------|----------|----------|
 | [CharacterTextSplitter](#1-charactertextsplitter) | Fixed character count, custom separators | Simple, uniform documents; when speed matters most |
